@@ -77,7 +77,6 @@ Devuelve un resumen de las verificaciones de ADN realizadas, indicando la cantid
     * **URL Deploy:** `https://mercadolibreprueba-mzd8.onrender.com/stats`
     * **Body:** No requiere cuerpo.
     * **Ejemplo de Respuesta (JSON):**
-      ```json
       {
           "count_mutant_dna": 40,
           "count_human_dna": 100,
@@ -89,7 +88,6 @@ Devuelve un resumen de las verificaciones de ADN realizadas, indicando la cantid
     * **URL Deploy:** `http://localhost:8080/stats`
     * **Body:** No requiere cuerpo.
     * **Ejemplo de Respuesta (JSON):**
-      ```json
       {
           "count_mutant_dna": 40,
           "count_human_dna": 100,

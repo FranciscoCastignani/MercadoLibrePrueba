@@ -70,24 +70,28 @@ La aplicación estará disponible en: http://localhost:8080
 
 ### Endpoint: /stats
 Devuelve un resumen de las verificaciones de ADN realizadas, indicando la cantidad de mutantes, humanos y el ratio de mutantes.
-  
+
   **Ejemplo En local:**
     * **Método:** "GET"
     * **URL Relativa:** "/stats"
     * **URL Deploy:** "https://mercadolibreprueba-mzd8.onrender.com/stats"
     * **Body:** No requiere cuerpo.
-    * **Ejemplo de Respuesta (JSON):**
+    * **Ejemplo de Respuesta:**
+  
+    
       {
           "count_mutant_dna": 40,
           "count_human_dna": 100,
           "ratio": 0.4
       }
+      
   **Ejemplo desde la API en Render:**
     * **Método:** "GET"
     * **URL Relativa:** "/stats"
     * **URL Deploy:** "http://localhost:8080/stats"
     * **Body:** No requiere cuerpo.
     * **Ejemplo de Respuesta (JSON):**
+    
       {
           "count_mutant_dna": 40,
           "count_human_dna": 100,
